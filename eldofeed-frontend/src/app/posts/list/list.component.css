@@ -1,0 +1,102 @@
+ul {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15,18,75,0.07);
+  max-width: 700px;
+  margin: 24px auto;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #f18b23;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: #0f124b;
+  margin-left: 8px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #f18b23;
+}
+
+button {
+  background: #f18b23;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #eb7500;
+  color: #fff;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.post-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 1px 4px rgba(15,18,75,0.04);
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f7cfa6;
+}
+
+.post-card h3 {
+  margin: 0 0 6px 0;
+  color: #0f124b;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.post-card p {
+  margin: 0;
+  color: #444;
+  font-size: 1rem;
+}
+
+.post-actions button {
+  background: #f18b23;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 18px;
+  margin-left: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.98rem;
+  transition: background 0.2s;
+}
+
+.post-actions button:hover {
+  background: #ffb366;
+}
+
+.empty-list {
+  text-align: center;
+  color: #0f124b;
+  font-size: 1.1rem;
+  margin-top: 24px;
+}

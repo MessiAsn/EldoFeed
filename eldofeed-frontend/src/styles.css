@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: #fff;
+  border-bottom: 2px solid #f18b23;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 5rem;
+  margin-right: 10px;
+}
+
+header span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #444;
+  margin-right: 20px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav button {
+  background: #f18b23;
+  color: #fff;
+  border: none;
+  padding: 7px 18px;
+  border-radius: 8px;
+  margin-left: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+nav button.active,
+nav button:hover {
+  background: #eb7500;
+}
+
+main {
+  margin: 20px;
+}
+
+.section-title {
+  color: #f18b23;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.post-list {
+  margin-top: 20px;
+}
+
+.post-card {
+  background: #fff;
+  border: 1px solid #f18b23;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-card h3 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+}
+
+.post-actions button {
+  background: #f18b23;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 8px;
+  margin-left: 3px;
+  font-size: 0.95rem;
+}
+
+.post-actions button:hover {
+  background: #eb7500;
+}
+
+.eldofeed-form {
+  background: #fff;
+  border: 1px solid #f18b23;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.eldofeed-form label {
+  font-weight: 500;
+  color: #0f124b;
+  margin-bottom: 2px;
+  display: block;
+  font-size: 1rem;
+}
+
+.eldofeed-form input[type="text"], .eldofeed-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #f18b23;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  background: #fff;
+  color: #0f124b;
+}
+
+.eldofeed-form button {
+  background: #f18b23;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.eldofeed-form button:hover {
+  background: #eb7500;
+}

@@ -1,0 +1,11 @@
+<header>
+  <img src="/EldoradoLogo.png" alt="Instituto Eldorado" />
+  <span>EldoFeed</span>
+  <nav>
+    <button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Listar Posts</button>
+    <button routerLink="/create" routerLinkActive="active">Criar Post</button>
+  </nav>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>

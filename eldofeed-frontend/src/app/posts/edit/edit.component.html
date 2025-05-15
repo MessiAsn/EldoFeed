@@ -1,0 +1,12 @@
+<div class="section-title">Editar Post</div>
+<form (ngSubmit)="updatePost()" class="eldofeed-form">
+  <label>
+    Título:
+    <input [(ngModel)]="post.title" name="title" required />
+  </label>
+  <label>
+    Descrição:
+    <textarea [(ngModel)]="post.description" name="description"></textarea>
+  </label>
+  <button type="submit">Salvar</button>
+</form>

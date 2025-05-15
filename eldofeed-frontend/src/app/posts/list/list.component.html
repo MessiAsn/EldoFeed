@@ -1,0 +1,17 @@
+<div class="section-title">Feed de Postagens</div>
+<div class="post-list">
+  <div class="post-card" *ngFor="let post of posts">
+    <div>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.description }}</p>
+    </div>
+    <div class="post-actions">
+      <button routerLink="/detail/{{post.id}}">Detalhes</button>
+      <button routerLink="/edit/{{post.id}}">Editar</button>
+      <button (click)="deletePost(post.id)">Excluir</button>
+    </div>
+  </div>
+  <div *ngIf="posts.length === 0" class="empty-list">
+    Nenhum post cadastrado.
+  </div>
+</div>

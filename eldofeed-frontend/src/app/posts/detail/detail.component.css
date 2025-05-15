@@ -1,0 +1,59 @@
+.detail-container, div[ngIf] {
+  max-width: 700px;
+  margin: 32px auto;
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15,18,75,0.07);
+}
+
+h2 {
+  color: #0f124b;
+}
+
+p {
+  color: #0f124b;
+  font-size: 1.1rem;
+}
+
+.section-title {
+  color: #f18b23;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.detail-card {
+  background: #fff;
+  border: 1px solid #aaaaaa7e;
+  border-radius: 10px;
+  padding: 22px 28px;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.detail-card h2 {
+  color: #0f124b;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.detail-desc {
+  color: #222;
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+  white-space: pre-line;
+}
+
+.detail-date {
+  color: #0f124b;
+  font-size: 0.98rem;
+  margin-top: 8px;
+  background: #f7f7f7;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}

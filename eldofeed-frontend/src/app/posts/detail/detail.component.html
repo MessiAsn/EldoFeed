@@ -1,0 +1,11 @@
+<div class="section-title">Detalhes do Post</div>
+<div class="detail-card" *ngIf="post">
+  <h2>{{ post.title }}</h2>
+  <div class="detail-desc">{{ post.description }}</div>
+  <div class="detail-date">
+    <b>Data:</b> {{ post.date | date:'short' }}
+  </div>
+</div>
+<div *ngIf="!post" class="empty-list">
+  <p>Carregando post...</p>
+</div>
